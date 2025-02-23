@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
     );
   }
 
-  @override
+  @overridegit 
   void dispose() {
     cameraController?.dispose();
     Tflite.close();
